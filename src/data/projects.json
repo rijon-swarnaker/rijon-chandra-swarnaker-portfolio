@@ -28,20 +28,5 @@
         "liveUrl": "https://devstack-explorer.netlify.app/",
         "githubUrl": "",
         "category": "Frontend"
-    },
-    {
-        "id": "personal-portfolio",
-        "title": "Personal Portfolio",
-        "description": "A modern, animated, responsive portfolio website showcasing my skills, projects, and developer journey.",
-        "image": "",
-        "technologies": [
-            "Next.js",
-            "TypeScript",
-            "Tailwind CSS",
-            "Motion"
-        ],
-        "liveUrl": "",
-        "githubUrl": "",
-        "category": "Frontend"
     }
 ]
