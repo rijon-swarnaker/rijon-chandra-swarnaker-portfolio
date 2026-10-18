@@ -145,7 +145,7 @@ export default function HeroSection() {
               >
                 <a
                   href="/contact"
-                  onClick={(e) => handleScrollTo(e, "contact")}
+                  // onClick={(e) => handleScrollTo(e, "contact")}
                   className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-semibold text-sm bg-slate-900 border border-slate-700/80 text-slate-200 hover:text-white hover:border-slate-500 hover:bg-slate-850 transition-all duration-200"
                 >
                   <span>Contact Me</span>
