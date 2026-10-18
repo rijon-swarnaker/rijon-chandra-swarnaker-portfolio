@@ -1,0 +1,47 @@
+[
+    {
+        "id": "bazardor",
+        "title": "BazarDor",
+        "description": "A Bengali-focused market price tracking web application that helps users explore essential commodity prices and make informed shopping decisions.",
+        "image": "https://plain-apac-prod-public.komododecks.com/202610/17/RN4IG7sD58EiBmcF02FN/image.png",
+        "technologies": [
+            "Next.js",
+            "React",
+            "TypeScript",
+            "Tailwind CSS",
+            "MongoDB"
+        ],
+        "liveUrl": "https://bazar-dor-eight.vercel.app/",
+        "githubUrl": "",
+        "category": "Full-Stack"
+    },
+    {
+        "id": "devstack-explorer",
+        "title": "DevStack Explorer",
+        "description": "A web application for exploring development technologies across different categories, including frontend, backend, databases, and tools.",
+        "image": "",
+        "technologies": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS"
+        ],
+        "liveUrl": "https://devstack-explorer.netlify.app/",
+        "githubUrl": "",
+        "category": "Frontend"
+    },
+    {
+        "id": "personal-portfolio",
+        "title": "Personal Portfolio",
+        "description": "A modern, animated, responsive portfolio website showcasing my skills, projects, and developer journey.",
+        "image": "",
+        "technologies": [
+            "Next.js",
+            "TypeScript",
+            "Tailwind CSS",
+            "Motion"
+        ],
+        "liveUrl": "",
+        "githubUrl": "",
+        "category": "Frontend"
+    }
+]
