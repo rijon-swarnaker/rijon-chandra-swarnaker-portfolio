@@ -12,7 +12,7 @@
             "MongoDB"
         ],
         "liveUrl": "https://bazar-dor-eight.vercel.app/",
-        "githubUrl": "",
+        "githubUrl": "https://github.com/rijon-swarnaker/Bazar-Dor",
         "category": "Full-Stack"
     },
     {
@@ -26,7 +26,7 @@
             "Tailwind CSS"
         ],
         "liveUrl": "https://devstack-explorer.netlify.app/",
-        "githubUrl": "",
+        "githubUrl": "https://github.com/rijon-swarnaker/dev-stack-buildernpm ",
         "category": "Frontend"
     }
 ]
