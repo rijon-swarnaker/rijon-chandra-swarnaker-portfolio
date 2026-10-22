@@ -1,32 +1,46 @@
 [
-    {
-        "id": "bazardor",
-        "title": "BazarDor",
-        "description": "A Bengali-focused market price tracking web application that helps users explore essential commodity prices and make informed shopping decisions.",
-        "image": "https://plain-apac-prod-public.komododecks.com/202610/17/RN4IG7sD58EiBmcF02FN/image.png",
-        "technologies": [
-            "Next.js",
-            "React",
-            "TypeScript",
-            "Tailwind CSS",
-            "MongoDB"
-        ],
-        "liveUrl": "https://bazar-dor-eight.vercel.app/",
-        "githubUrl": "https://github.com/rijon-swarnaker/Bazar-Dor",
-        "category": "Full-Stack"
-    },
-    {
-        "id": "devstack-explorer",
-        "title": "DevStack Explorer",
-        "description": "A web application for exploring development technologies across different categories, including frontend, backend, databases, and tools.",
-        "image": "",
-        "technologies": [
-            "React",
-            "TypeScript",
-            "Tailwind CSS"
-        ],
-        "liveUrl": "https://devstack-explorer.netlify.app/",
-        "githubUrl": "https://github.com/rijon-swarnaker/dev-stack-buildernpm ",
-        "category": "Frontend"
-    }
+  {
+    "id": "bazardor",
+    "title": "BazarDor",
+    "description": "A Bengali-focused market price tracking web application that helps users explore essential commodity prices and make informed shopping decisions.",
+    "image": "https://plain-apac-prod-public.komododecks.com/202610/17/RN4IG7sD58EiBmcF02FN/image.png",
+    "technologies": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "MongoDB"
+    ],
+    "liveUrl": "https://bazar-dor-eight.vercel.app/",
+    "githubUrl": "https://github.com/rijon-swarnaker/Bazar-Dor",
+    "category": "Full-Stack"
+  },
+
+  {
+    "id": "fitlog-workout-library",
+    "title": "FitLog — Workout Library",
+    "description": "A responsive workout planning and tracking application featuring an interactive exercise library, detailed workout instructions, daily workout planning, saved exercises, and progress tracking.",
+    "image": "https://plain-apac-prod-public.komododecks.com/202610/22/65OSsPTsyGS11uPSunSn/image.png",
+    "technologies": [
+        "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Context API"
+    ],
+    "liveUrl": "https://fitlog-workout-library.vercel.app/",
+    "githubUrl": "https://github.com/rijon-swarnaker/fitlog-workout-library",
+    "category": "Frontend"
+  },
+
+  {
+    "id": "devstack-explorer",
+    "title": "DevStack Explorer",
+    "description": "A web application for exploring development technologies across different categories, including frontend, backend, databases, and tools.",
+    "image": "https://plain-apac-prod-public.komododecks.com/202610/22/TxhbgRl7cos0mxc2vf6T/image.png",
+    "technologies": ["React", "Tailwind CSS", "JavaScript","Context API"],
+    "liveUrl": "https://devstack-explorer.netlify.app/",
+    "githubUrl": "https://github.com/rijon-swarnaker/dev-stack-buildernpm ",
+    "category": "Frontend"
+  }
 ]

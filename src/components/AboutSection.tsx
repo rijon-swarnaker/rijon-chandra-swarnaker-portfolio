@@ -246,7 +246,7 @@ export default function AboutSection() {
                 whileTap={shouldReduceMotion ? {} : { scale: 0.97 }}
               >
                 <a
-                  href="#contact"
+                  href="/contact"
                   onClick={handleScrollToContact}
                   className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-sm bg-linear-to-r from-cyan-500 to-blue-600 text-white shadow-lg shadow-cyan-500/25 hover:shadow-cyan-500/40 transition-all duration-200"
                 >
@@ -260,7 +260,7 @@ export default function AboutSection() {
                 whileTap={shouldReduceMotion ? {} : { scale: 0.97 }}
               >
                 <a
-                  href="#contact"
+                  href="/contact"
                   onClick={handleCvClick}
                   className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-sm bg-slate-900 border border-slate-700/80 text-slate-200 hover:text-white hover:border-slate-500 hover:bg-slate-850 transition-all duration-200"
                   title="Request CV"
