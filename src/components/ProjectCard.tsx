@@ -15,7 +15,7 @@ export default function ProjectCard({ project }: { project: Project }) {
     <motion.article
       whileHover={{ y: -6 }}
       transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
-      className="group relative flex flex-col h-130 justify-between rounded-2xl bg-slate-900/70 border border-slate-800/80 hover:border-cyan-500/40 p-5 backdrop-blur-sm transition-all duration-300 shadow-lg hover:shadow-cyan-500/10 overflow-hidden"
+      className="group relative flex flex-col h-full justify-between rounded-2xl bg-slate-900/70 border border-slate-800/80 hover:border-cyan-500/40 p-5 backdrop-blur-sm transition-all duration-300 shadow-lg hover:shadow-cyan-500/10 overflow-hidden"
     >
       <div >
         {/* Project Preview Image Container */}

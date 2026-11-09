@@ -72,18 +72,20 @@ export default function AboutSection() {
     }
   };
 
-  const handleCvClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    // If no dedicated PDF file exists, provide a friendly message and redirect to contact
-    e.preventDefault();
-    setCopiedCvMessage(true);
-    setTimeout(() => setCopiedCvMessage(false), 3000);
-    const contactElement = document.getElementById("contact");
-    if (contactElement) {
-      contactElement.scrollIntoView({
-        behavior: shouldReduceMotion ? "auto" : "smooth",
-      });
-    }
-  };
+ const handleCvClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+  e.preventDefault();
+
+  const link = document.createElement("a");
+  link.href = "/Rijon-Chandra-Swarnaker-CV.pdf";
+  link.download = "Rijon-Chandra-Swarnaker-CV.pdf";
+
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+
+  setCopiedCvMessage(true);
+  setTimeout(() => setCopiedCvMessage(false), 3000);
+};
 
   const containerVariants = {
     hidden: { opacity: 0 },

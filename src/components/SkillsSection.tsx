@@ -16,6 +16,7 @@ import {
   GitBranch,
   ShieldCheck,
   Zap,
+  LockKeyhole,
 } from "lucide-react";
 
 type SkillCategory = "frontend" | "backend" | "tools";
@@ -67,58 +68,82 @@ const SKILLS_DATA: Record<SkillCategory, SkillItem[]> = {
     },
   ],
   backend: [
-    {
-      name: "Node.js",
-      level: "Proficient",
-      description: "Event-driven runtime, asynchronous architecture, REST endpoints",
-      icon: Server,
-      tag: "Runtime",
-    },
-    {
-      name: "Express.js",
-      level: "Proficient",
-      description: "Middleware architecture, API routing, error handling & security",
-      icon: Cpu,
-      tag: "Framework",
-    },
-    {
-      name: "MongoDB & Mongoose",
-      level: "Proficient",
-      description: "Document modeling, indexing, aggregation pipelines & data validation",
-      icon: Database,
-      tag: "Database",
-    },
-  ],
-  tools: [
-    {
-      name: "Git & GitHub",
-      level: "Advanced",
-      description: "Branching strategies, pull requests, version control & code review",
-      icon: GitBranch,
-      tag: "VCS",
-    },
-    {
-      name: "Turbopack & Vite",
-      level: "Proficient",
-      description: "Fast bundling, HMR, modern build pipelines & environment configurations",
-      icon: Zap,
-      tag: "Build Tool",
-    },
-    {
-      name: "VS Code & Terminal",
-      level: "Expert",
-      description: "Power user workflows, CLI tooling, debugging & extensions",
-      icon: Terminal,
-      tag: "Workflow",
-    },
-    {
-      name: "Vercel & Netlify",
-      level: "Advanced",
-      description: "Continuous deployment, preview branches, serverless functions & DNS",
-      icon: Wrench,
-      tag: "Cloud",
-    },
-  ],
+  {
+    name: "Node.js",
+    level: "Proficient",
+    description:
+      "Event-driven runtime, asynchronous architecture, REST endpoints",
+    icon: Server,
+    tag: "Runtime",
+  },
+  {
+    name: "Express.js",
+    level: "Proficient",
+    description:
+      "Middleware architecture, API routing, error handling & security",
+    icon: Cpu,
+    tag: "Framework",
+  },
+  {
+    name: "MongoDB & Mongoose",
+    level: "Proficient",
+    description:
+      "Document modeling, indexing, aggregation pipelines & data validation",
+    icon: Database,
+    tag: "Database",
+  },
+  {
+    name: "JWT",
+    level: "Proficient",
+    description:
+      "Token-based authentication, JWT verification & protected API routes",
+    icon: ShieldCheck,
+    tag: "Security",
+  },
+],
+
+tools: [
+  {
+    name: "Git & GitHub",
+    level: "Advanced",
+    description:
+      "Branching strategies, pull requests, version control & code review",
+    icon: GitBranch,
+    tag: "VCS",
+  },
+  {
+    name: "Better Auth",
+    level: "Proficient",
+    description:
+      "User authentication, session management & secure sign-in",
+    icon: LockKeyhole,
+    tag: "Auth Library",
+  },
+  {
+    name: "Turbopack & Vite",
+    level: "Proficient",
+    description:
+      "Fast bundling, HMR, modern build pipelines & environment configurations",
+    icon: Zap,
+    tag: "Build Tool",
+  },
+  {
+    name: "VS Code & Terminal",
+    level: "Expert",
+    description:
+      "Power user workflows, CLI tooling, debugging & extensions",
+    icon: Terminal,
+    tag: "Workflow",
+  },
+  {
+    name: "Vercel & Netlify",
+    level: "Advanced",
+    description:
+      "Continuous deployment, preview branches, serverless functions & DNS",
+    icon: Wrench,
+    tag: "Cloud",
+  },
+],
 };
 
 const TABS: { id: SkillCategory; label: string; icon: React.ComponentType<{ className?: string }> }[] = [

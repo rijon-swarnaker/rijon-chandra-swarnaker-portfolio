@@ -1,5 +1,26 @@
 [
   {
+  "id": "jagoron",
+  "title": "Jagoron – Social Development Events Platform",
+  "description": "A community-driven social development platform that connects people with volunteer opportunities, enabling users to discover, organize, and participate in meaningful social welfare events.",
+  "image": "https://i.ibb.co.com/6cH7hQDx/Screenshot-2026-11-05-131541.png",
+  "technologies": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Better Auth",
+    "JWT"
+  ],
+  "liveUrl": "https://jagoron-social-impact-platform.vercel.app/",
+  "githubUrl": "https://github.com/rijon-swarnaker/jagoron-social-impact-platform",
+  "category": "Full-Stack"
+},
+  {
     "id": "bazardor",
     "title": "BazarDor",
     "description": "A Bengali-focused market price tracking web application that helps users explore essential commodity prices and make informed shopping decisions.",
